@@ -1,6 +1,6 @@
 # Boids With Change in Leadership
 
-![img](assets/cover.gif)
+![Simulator for Boids with Change in Leadership](assets/cover.gif)
 
 Boids is a program, initially developped by Craig Reynolds, inteded to simulate the flocking behaviour of birds. It's commonly used in computer graphics providing realistic behaviour of schools of fish or herds of animals (besides birds).
 
@@ -10,12 +10,12 @@ Other functionalities have also been added. The environment dynamics include obs
 
 The code is mostly written in French. I intend to translate it in the near future.
 
-## Requirements 
-* Processing 3
-
-## File Descriptions
+## Getting Started 
+To run the simulator, you should have **Processing 3** installed. Next, open **Boids/Boids.pde** and execute it in the Processing IDE.
 
 ## Functionalities
+![img](assets/panels.png)
+
 The graphical interface have two pannels: the left one activates different options whereas the right one adjusts some of the algorithms' parameters. The buttons can be activated by the shortcut inside parenthesis.
 
 ### Options Panel
@@ -50,15 +50,11 @@ The graphical interface have two pannels: the left one activates different optio
 * **Force du champs**: adjust the force of the vector field acting on the agents
 
 ## Modified Algorithm
-The definition of eccentricity was modified for a couple of reasons (for more details, see the full report). The adopted formula is provided below:
+The definition of eccentricity was modified for a couple of reasons (for more details, see the full report). The adopted formula, analogous to a Gaussian kernel, is provided below:
 
-<center>
-
-![img](https://render.githubusercontent.com/render/math?math=\color{gray}x_%7Bi%7D%20%3D%20%5Cexp%5Cleft(%20-%20%5Cfrac%7B%5ClVert%20%5Cleft(%20%5Cvec%7Bc%7D_i%20-%20%5Cvec%7Bc%7D_o%5Cright)%20%5ClVert%5E2_t%7D%7B2%5Csigma%5E2%7D%20%5Cright))
-
-</center>
-
-Where 
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=\color{gray}x_%7Bi%7D%20%3D%20%5Cexp%5Cleft(%20-%20%5Cfrac%7B%5ClVert%20%5Cleft(%20%5Cvec%7Bc%7D_i%20-%20%5Cvec%7Bc%7D_o%5Cright)%20%5ClVert%5E2_t%7D%7B2%5Csigma%5E2%7D%20%5Cright)"/>
+</p>
 
 ## Acknowledgements
 This project was made by me as part of the course *Techniques Inspirées du Vivant* at CentraleSupélec, France, in 2017. The complete report (in French) is available in [assets/raport.pdf](assets/rapport.pdf).
