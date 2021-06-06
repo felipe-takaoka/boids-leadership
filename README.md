@@ -54,6 +54,10 @@ The definition of eccentricity was modified for a couple of reasons (for more de
 
 $x_{i} = \exp\left( - \frac{||\left( \vec{c}_i - \vec{c}_o\right) ||^2_t}{2\sigma^2} \right)$
 
+```math
+x_{i} = \exp\left( - \frac{||\left( \vec{c}_i - \vec{c}_o\right) ||^2_t}{2\sigma^2} \right)
+```
+
 ## Acknowledgements
 This project was made by me as part of the course *Techniques Inspirées du Vivant* at CentraleSupélec, France, in 2017. The complete report (in French) is available in [assets/raport.pdf](assets/raport.pdf).
 
