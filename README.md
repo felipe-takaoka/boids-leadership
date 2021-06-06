@@ -52,14 +52,13 @@ The graphical interface have two pannels: the left one activates different optio
 ## Modified Algorithm
 The definition of eccentricity was modified for a couple of reasons (for more details, see the full report). The adopted formula is provided below:
 
-$x_{i} = \exp\left( - \frac{||\left( \vec{c}_i - \vec{c}_o\right) ||^2_t}{2\sigma^2} \right)$
+<center>
 
-```math
-x_{i} = \exp\left( - \frac{||\left( \vec{c}_i - \vec{c}_o\right) ||^2_t}{2\sigma^2} \right)
-```
+![img](https://render.githubusercontent.com/render/math?math=\color{gray}x_%7Bi%7D%20%3D%20%5Cexp%5Cleft(%20-%20%5Cfrac%7B%5ClVert%20%5Cleft(%20%5Cvec%7Bc%7D_i%20-%20%5Cvec%7Bc%7D_o%5Cright)%20%5ClVert%5E2_t%7D%7B2%5Csigma%5E2%7D%20%5Cright))
 
-![New Eccentricity Formula](https://latex.codecogs.com/svg.latex?x_%7Bi%7D%20%3D%20%5Cexp%5Cleft(%20-%20%5Cfrac%7B%7C%7C%5Cleft(%20%5Cvec%7Bc%7D_i%20-%20%5Cvec%7Bc%7D_o%5Cright)%20%7C%7C%5E2_t%7D%7B2%5Csigma%5E2%7D%20%5Cright))
+</center>
 
+Where 
 
 ## Acknowledgements
 This project was made by me as part of the course *Techniques Inspirées du Vivant* at CentraleSupélec, France, in 2017. The complete report (in French) is available in [assets/raport.pdf](assets/rapport.pdf).
