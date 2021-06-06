@@ -59,7 +59,7 @@ The definition of eccentricity was modified for a couple of reasons (for more de
 ## Acknowledgements
 This project was made by me as part of the course *Techniques Inspirées du Vivant* at CentraleSupélec, France, in 2017. The complete report (in French) is available in [assets/raport.pdf](assets/rapport.pdf).
 
-I am not a native english speaker neither a native french speaker. So I apologize in advance if there are any grammar mistakes.
+I am not a native english speaker neither a native french speaker. So I apologize in advance if there are any grammar errors.
 
 ## References
 * Reynolds CW. "Flocks, herds and schools: a distributed behavioral model." In SIGGRAPH’87: Proceedings of the 14th Annual Conference on Computer Graphics and Interactive Techniques. ACM Press: New York, 1987; 25–34.
