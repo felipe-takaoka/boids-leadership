@@ -58,8 +58,11 @@ $x_{i} = \exp\left( - \frac{||\left( \vec{c}_i - \vec{c}_o\right) ||^2_t}{2\sigm
 x_{i} = \exp\left( - \frac{||\left( \vec{c}_i - \vec{c}_o\right) ||^2_t}{2\sigma^2} \right)
 ```
 
+![New Eccentricity Formula](https://latex.codecogs.com/svg.latex?x_%7Bi%7D%20%3D%20%5Cexp%5Cleft(%20-%20%5Cfrac%7B%7C%7C%5Cleft(%20%5Cvec%7Bc%7D_i%20-%20%5Cvec%7Bc%7D_o%5Cright)%20%7C%7C%5E2_t%7D%7B2%5Csigma%5E2%7D%20%5Cright))
+
+
 ## Acknowledgements
-This project was made by me as part of the course *Techniques Inspirées du Vivant* at CentraleSupélec, France, in 2017. The complete report (in French) is available in [assets/raport.pdf](assets/raport.pdf).
+This project was made by me as part of the course *Techniques Inspirées du Vivant* at CentraleSupélec, France, in 2017. The complete report (in French) is available in [assets/raport.pdf](assets/rapport.pdf).
 
 I am not a native english speaker neither a native french speaker. So I apologize in advance if there are any grammar mistakes.
 
