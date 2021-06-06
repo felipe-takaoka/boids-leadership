@@ -13,6 +13,8 @@ The code is mostly written in French. I intend to translate it in the near futur
 ## Requirements 
 * Processing 3
 
+## File Descriptions
+
 ## Functionalities
 The graphical interface have two pannels: the left one activates different options whereas the right one adjusts some of the algorithms' parameters. The buttons can be activated by the shortcut inside parenthesis.
 
@@ -36,16 +38,28 @@ The graphical interface have two pannels: the left one activates different optio
 
 ### Parameters Panel
 * **(T) Minimiser panneau**: minize the panel
-* **Vitesse maximale**: 
+* **Vitesse maximale**: adjust the maximum velocity allowed for the agens
+* **Force maximale**: adjust the maximum force allowed for the agents
+* **Espace vital**: adjust the radius of the field of separation of the agents
+* **Portée vision**: adjust the range of the field of view
+* **Angle de vision**: adjust the angle of the field of view
+* **Cohésion**: adjust the weight of the cohesion force compared to the separation and alignment forces
+* **Séparation**: adjust the weight of the separation force compared to the cohesion and alignment forces
+* **Alignement**: adjust the weight of the alignment force compared to the cohesion and separation forces
+* **Chance de devenir leader**: adjust the probility of the boid on becoming the leader of the group
+* **Force du champs**: adjust the force of the vector field acting on the agents
 
-## File Descriptions
+## Modified Algorithm
+The definition of eccentricity was modified for a couple of reasons (for more details, see the full report). The adopted formula is provided below:
+
+$x_{i} = \exp\left( - \frac{||\left( \vec{c}_i - \vec{c}_o\right) ||^2_t}{2\sigma^2} \right)$
 
 ## Acknowledgements
-This project was made by me as part of the course *Techniques Inspirées du Vivant* in CentraleSupélec in 2017.
+This project was made by me as part of the course *Techniques Inspirées du Vivant* at CentraleSupélec, France, in 2017. The complete report (in French) is available in [assets/raport.pdf](assets/raport.pdf).
 
 I am not a native english speaker neither a native french speaker. So I apologize in advance if there are any grammar mistakes.
 
 ## References
-* Reynolds CW. "Flocks, herds and schools: a distributed behavioral model." In SIGGRAPH’87: Proceedings of the 14th Annual Conference on Com- puter Graphics and Interactive Techniques. ACM Press: New York, 1987; 25–34.
+* Reynolds CW. "Flocks, herds and schools: a distributed behavioral model." In SIGGRAPH’87: Proceedings of the 14th Annual Conference on Computer Graphics and Interactive Techniques. ACM Press: New York, 1987; 25–34.
 * Hartman C, Benes B. "Autonomous boids." Computer Animation and Virtual Worlds 2006; 17: 199–206.
 * Reynolds C. Steering behaviors for autonomous characters. In Proceedings of Game Developers Conference 1999; 763–782.
