@@ -11,7 +11,7 @@ Other functionalities have also been added. The environment dynamics include obs
 The code is mostly written in French. I intend to translate it in the near future.
 
 ## Getting Started 
-To run the simulator, you should have **Processing 3** installed. Next, open **Boids/Boids.pde** and execute it in the Processing IDE.
+To run the simulator, you should have **Processing 3** or newer installed. Next, open **Boids/Boids.pde** and execute it in the Processing IDE.
 
 ## Functionalities
 ![img](assets/panels.png)
